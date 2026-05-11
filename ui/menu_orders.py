@@ -4,7 +4,7 @@ from models.equipment import get_equipment_by_client
 from database.db_manager import get_all_masters
 from datetime import datetime
 
-STATUSES = ["Принята", "Обработка", "Выполнение", "Готова", "Закрыта"]
+STATUSES = ["В работе", "Готова", "Закрыта"]
 
 def menu_orders():
     while True:
