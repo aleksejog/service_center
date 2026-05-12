@@ -66,7 +66,7 @@ def initialize_db():
     )
     ''')
 
-    # Добавляемs сотрудников
+    # Добавляем сотрудников
     cursor.execute("SELECT COUNT(*) FROM employees")
     if cursor.fetchone()[0] == 0:
         employees = [
